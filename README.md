@@ -8,7 +8,7 @@ The implemented models are:
 - **Binomial Tree (CRR)**  
 - **Monte Carlo Simulation**
 
-[Open the Streamlit App](https://carl-moreau-european-option-pricer-app.streamlit.app)
+[Open the Streamlit App](https://carl-moreau-european-option-pricer.streamlit.app)
 
 ---
 
