@@ -35,7 +35,7 @@ def main() -> None:
     direction = st.sidebar.selectbox("Position", ["long", "short"])
     binomial_steps = st.sidebar.number_input("Binomial - Number of steps", 1, 1000, 500, 100)
     mc_sims = st.sidebar.number_input("Monte Carlo - Number of steps", 1, 200000, 100000, 25000)
-    use_fixed_seed = st.sidebar.checkbox("🔒 Fixer le seed Monte Carlo", value=True)
+    use_fixed_seed = st.sidebar.checkbox("Fixer le seed Monte Carlo", value=True)
     if use_fixed_seed:
         seed_value = st.sidebar.number_input("Seed", value=42, min_value=0, step=1)
     
